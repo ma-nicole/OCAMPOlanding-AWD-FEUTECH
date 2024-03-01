@@ -9,12 +9,7 @@
 body{
   overflow: hidden;
 }
-.return{
-  position: absolute;
-  top: 80%;
-  left: 70%;
-  text-align: center;
-}
+
 .container {
   flex-wrap: wrap;
   overflow: hidden;
