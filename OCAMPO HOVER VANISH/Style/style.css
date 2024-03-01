@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  overflow: hidden;
+}
 .return{
   position: relative;
 }
@@ -33,6 +36,7 @@
 .container span::before {
   content: "";
   position: absolute;
+  overflow: hidden;
   background-image: url("https://4kwallpapers.com/images/wallpapers/moon-aesthetic-5120x2880-12004.jpg");
   background-repeat: no-repeat;
   background-position: center;
