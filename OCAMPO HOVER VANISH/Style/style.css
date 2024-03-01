@@ -13,7 +13,8 @@ body{
 }
 
 .return{
-  position: relative;
+  position: absolute;
+  align-self: center;
   color: white;
 }
 
