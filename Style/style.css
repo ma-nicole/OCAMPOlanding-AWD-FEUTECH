@@ -70,6 +70,7 @@ button:hover{
     transform-origin: 50% 0%;
     animation: zoomInOut 3s infinite;
 }
+      
 @keyframes zoomInOut {
     0%, 100% {
         font-size: 117%;
