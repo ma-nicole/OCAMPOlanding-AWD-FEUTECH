@@ -2,12 +2,18 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Copperplate", fantasy;
+  color:aliceblue;
+  
 }
 body{
   overflow: hidden;
 }
 .return{
-  position: relative;
+  position: absolute;
+  top: 80%;
+  left: 70%;
+  text-align: center;
 }
 .container {
   flex-wrap: wrap;
