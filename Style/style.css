@@ -8,8 +8,7 @@
 
   body {
     height: 100%;
-    overflow: hidden; /* Prevents scrolling beyond the viewport */
-}
+    overflow: hidden;
 
 .container{
     display: flex;
@@ -17,8 +16,6 @@
     align-items: center;
     min-height: 100vh;
     background: url("https://wallpapercave.com/wp/wp11981257.jpg") center/cover; 
-    /* border:5px solid red; */
-    
 }
 
 .content{
@@ -28,8 +25,6 @@
     align-items: center;
     width: 50%;
     height: 60%;
-    /* border: 5px solid blue; */
-    /* background-color: black; */
 }
 
 button{
@@ -69,26 +64,25 @@ button:hover{
     justify-content: center;
     align-items: center;
     text-align: center;
-    min-width: 40%; /* Adjusted for better fit */
-    height: 40%; /* Adjusted for better fit */
+    min-width: 40%;
+    height: 40%; 
     border-radius: 50%;
-    /* box-shadow: 0px 0px 50px #3b3e00; */
     transform-origin: 50% 0%;
     animation: zoomInOut 3s infinite;
 }
 @keyframes zoomInOut {
     0%, 100% {
-        font-size: 117%; /* Initial and final state: normal size */
+        font-size: 117%;
     }
     50% {
-        font-size: 130%; /* Middle state: zoomed in */
+        font-size: 130%;
     }
 }
 
 .petal:hover a{
     color: rgb(255, 53, 147);
 }
-/* Adjusting each petal's rotation around the center */
+
 .petal1 { 
     transform:translateY(-80%);
     background: linear-gradient(to bottom, #eeff00,rgb(234, 181, 20), #ff4500);
@@ -116,10 +110,10 @@ button:hover{
     }
     @keyframes zoomInOut {
         0%, 100% {
-            font-size: 90%; /* Initial and final state: normal size */
+            font-size: 90%; 
         }
         50% {
-            font-size: 100%; /* Middle state: zoomed in */
+            font-size: 100%; 
         }
     }
 }
@@ -130,10 +124,10 @@ button:hover{
     }
     @keyframes zoomInOut {
         0%, 100% {
-            font-size: 98%; /* Initial and final state: normal size */
+            font-size: 98%; 
         }
         50% {
-            font-size: 108%; /* Middle state: zoomed in */
+            font-size: 108%; 
         }
     }
  
@@ -145,10 +139,10 @@ button:hover{
     }
     @keyframes zoomInOut {
         0%, 100% {
-            font-size: 105%; /* Initial and final state: normal size */
+            font-size: 105%;
         }
         50% {
-            font-size: 115%; /* Middle state: zoomed in */
+            font-size: 115%; 
         }
     }
 }
@@ -159,10 +153,10 @@ button:hover{
     }
     @keyframes zoomInOut {
         0%, 100% {
-            font-size: 110%; /* Initial and final state: normal size */
+            font-size: 110%;
         }
         50% {
-            font-size: 120%; /* Middle state: zoomed in */
+            font-size: 120%;
         }
     }
 }
@@ -172,10 +166,10 @@ button:hover{
     }
     @keyframes zoomInOut {
         0%, 100% {
-            font-size: 110%; /* Initial and final state: normal size */
+            font-size: 110%;
         }
         50% {
-            font-size: 124%; /* Middle state: zoomed in */
+            font-size: 124%; 
         }
     }
 }
@@ -198,10 +192,10 @@ button:hover{
     }
     @keyframes zoomInOut {
         0%, 100% {
-            font-size: 107%; /* Initial and final state: normal size */
+            font-size: 107%;
         }
         50% {
-            font-size: 120%; /* Middle state: zoomed in */
+            font-size: 120%; 
         }
     }
 
@@ -224,10 +218,10 @@ button:hover{
     }
     @keyframes zoomInOut {
         0%, 100% {
-            font-size: 117%; /* Initial and final state: normal size */
+            font-size: 117%; 
         }
         50% {
-            font-size: 130%; /* Middle state: zoomed in */
+            font-size: 130%; 
         }
     }
 }
@@ -247,10 +241,10 @@ button:hover{
  
     @keyframes zoomInOut {
         0%, 100% {
-            font-size: 190%; /* Initial and final state: normal size */
+            font-size: 190%;
         }
         50% {
-            font-size: 200%; /* Middle state: zoomed in */
+            font-size: 200%; 
         }
     }
     
