@@ -3,25 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  background: cover;
+ overflow: hidden;
 }
-
 .return{
   position: absolute;
-  align-self: center;
-  color: white;
 }
-
 .container {
-  position: relative;
-  background: url("https://lp-cms-production.imgix.net/features/2013/04/sunrise1_cs.jpg?auto=format&w=1440&h=810&fit=crop&q=75") center/cover; 
-  overflow: hidden; 
+  flex-wrap: wrap;
+  overflow: hidden;
+  background: url("https://lp-cms-production.imgix.net/features/2013/04/sunrise1_cs.jpg?auto=format&w=1440&h=810&fit=crop&q=75");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -44,8 +35,8 @@ body{
 
 .container span::before {
   content: "";
-  position: relative;
-  background: url("https://4kwallpapers.com/images/wallpapers/moon-aesthetic-5120x2880-12004.jpg") center/cover; ;
+  position: absolute;
+  background-image: url("https://4kwallpapers.com/images/wallpapers/moon-aesthetic-5120x2880-12004.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
