@@ -32,6 +32,7 @@ body{
   align-items: center;
   min-height: 120px;
   min-width: 120px;
+  transition: background-color 10s ease-in-out;
 }
 
 .container span::before {
