@@ -61,7 +61,3 @@ body{
   background-repeat: no-repeat;
 }
 
-.container span.permanent::before {
-  opacity: 0;
-  border-radius: 20px;
-}
